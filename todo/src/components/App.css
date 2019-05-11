@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+.AppTodo {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+li {
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 30px;
+  margin-right: 5px;
+  font-size: 25px;
+  border: 1px solid rgb(52, 113, 255);
+  border-radius: 3px;
+  background-color: rgb(52, 113, 255);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  width: 120px;
+  color: white;
+}
+button:hover {
+  background-color: rgb(0, 77, 255);
+}
